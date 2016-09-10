@@ -15,6 +15,7 @@ class Accounts extends Component {
 		// find created forms and destroy them
 		Blaze.remove(this.view);
 	}
+
 	render() {
 		return (
 			<div ref='container'></div>
