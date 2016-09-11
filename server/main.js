@@ -4,7 +4,7 @@ import { Bins } from '../imports/collections/bins';
 Meteor.startup(() => {
   Meteor.publish('bins', function() {
 
-  	return Bins.find({ ownerIs: this.userId });
+  	return Bins.find({ ownerId: this.userId });
 
   });
 });
