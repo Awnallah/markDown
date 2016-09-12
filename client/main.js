@@ -12,7 +12,7 @@ const routes = (
 	<Router history={browserHistory}>
 		<Route path='/' component={App}>
 			<IndexRoute component={BinsList} />
-			<Route path='bins' component={BinsMain} />
+			<Route path='bins/:binId' component={BinsMain} />
 		</Route>
 	</Router>
 
