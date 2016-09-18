@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BinViewer extends Component {
+class BinsViewer extends Component {
 	render() {
 		return (
 			<div className='col-xs-4'>
@@ -11,4 +11,4 @@ class BinViewer extends Component {
 
 }
 
-export default BinViewer;
+export default BinsViewer;
