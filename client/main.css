@@ -12,4 +12,11 @@
 	position: absolute;
 	bottom: 0;
 	width:100%;
+	display: flex;
+	align-item: center;
+	margin: 10px;
+}
+
+.bins-share .input-group {
+	width: 30%;
 }
